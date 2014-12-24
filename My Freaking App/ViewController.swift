@@ -21,5 +21,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonTapped(sender: AnyObject) {
+        self.view.backgroundColor = UIColor.redColor()
+    }
 }
 
